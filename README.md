@@ -19,8 +19,6 @@ The following Python packages are required:
 
 
 Additionally, ffmpeg is required for audio extraction and processing. You can install ffmpeg using Homebrew on macOS:
-'brew install ffmpeg'
-
+`brew install ffmpeg`
 If you want to change the folder where the MP3 files are saved, modify the 'outtmpl' in the ydl_opts dictionary. For example:
-'outtmpl': '/path/to/your/folder/%(title)s.%(ext)s'
-
+`'outtmpl': '/path/to/your/folder/%(title)s.%(ext)s'`
