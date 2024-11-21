@@ -14,9 +14,9 @@ def progress_hook(d):
         sys.stdout.write(f'\rDownloading... {progress}, {speed}')
         sys.stdout.flush()
 
-# Authenticate with Spotify
-client_id = 'be4157984aad4f4fa21e78b0b4f4d953'
-client_secret = '5ac2376e05e7433b8703625b140cee08'
+# Authenticate with Spotify API
+client_id = '######'
+client_secret = '#######'
 
 # Initialize client credentials manager
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
@@ -25,7 +25,7 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id, clien
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Get user's playlist by its URI
-playlist_uri = 'https://open.spotify.com/playlist/58qHNFtPTYZVLAcSHSqr5w'
+playlist_uri = 'https://open.spotify.com/playlist/######'
 playlist = sp.playlist_tracks(playlist_uri)
 
 # Extract song names and artists
