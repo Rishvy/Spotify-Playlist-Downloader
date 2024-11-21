@@ -2,11 +2,6 @@
 
 This project allows you to download the audio of a Spotify playlist as MP3 files by searching for the official audio on YouTube. The tool uses the Spotify API to fetch playlist details and the `yt-dlp` library to download the audio from YouTube.
 
-## Requirements
-spotipy
-yt-dlp
-youtube-search-python
-
 ### Python Version
 - Python 3.x (Recommended: Python 3.7 or later)
 
